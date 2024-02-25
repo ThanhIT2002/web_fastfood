@@ -1,0 +1,107 @@
+/* Phần container của giỏ hàng */
+.container_cart {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.infor_cart,
+.infor_customer {
+    padding: 10px; /* Thêm lề cho phần tử */
+}
+.content_cart h2 {
+    color: #c00000;
+}
+
+.content_cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.content_cart th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.content_cart th {
+    background-color: #f2f2f2;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.cart_empty h2 , a {
+    color :#c00000;
+}
+.content_cart_main button {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+.total_cart {
+    background-color: #c00000; /* Màu nền đỏ */
+    color: white; /* Màu chữ trắng */
+    padding: 15px; /* Khoảng cách giữa nội dung và viền */
+    margin-top: 20px; /* Khoảng cách từ phần giỏ hàng đến phần tổng tiền */
+    border-radius: 5px; /* Độ cong viền */
+    font-size: 20px; /* Cỡ chữ */
+    font-weight: bold; /* Chữ đậm */
+    text-align: center; /* Canh giữa nội dung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: background-color 0.3s; /* Hiệu ứng màu nền thay đổi mượt mà */
+}
+
+.total_cart:hover {
+    background-color: #a00000; /* Màu nền đỏ tối khi di chuột qua */
+}
+
+
+.content_cart a {
+    text-decoration: none;
+    color: #c00000;
+}
+
+.content_cart a:hover {
+    text-decoration: underline;
+}
+
+.content_cart form {
+    margin: 0;
+}
+
+.content_cart label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.content_cart input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.infor_customer button[type="submit"] {
+    background-color: #c00000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.infor_customer button[type="submit"]:hover {
+    background-color: #900000;
+}
+

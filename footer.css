@@ -1,0 +1,43 @@
+/* CSS cho footer */
+.footer {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #2e3a49; /* Màu nền */
+    color: #ffffff; /* Màu chữ */
+    padding: 20px 0; /* Khoảng cách giữa phần footer và nội dung bên trong */
+    text-align: center;
+  }
+  .footer__tittle h2 {
+    font-size: 24px; /* Kích thước chữ */
+    color: #fff; /* Màu chữ */
+    text-align: center; /* Canh lề chữ giữa */
+    margin-top: 10px; /* Khoảng cách từ phần tử trên nó */
+    margin-bottom: 20px;
+  }
+  /* CSS cho phần tử chứa thông tin thành viên */
+  .footer__memberinfor {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* CSS cho mỗi phần tử thông tin thành viên */
+  .footer__memberinfor-nguyenthanh, .footer__memberinfor-duythanh {
+    width: 45%; /* Độ rộng của mỗi phần tử */
+    padding: 10px; /* Khoảng cách bên trong phần tử */
+    border-radius: 5px; /* Bo góc của mỗi phần tử */
+    text-align: center; /* Canh lề văn bản sang trái */
+  }
+  
+  /* CSS cho tiêu đề và nội dung trong mỗi phần tử thông tin thành viên */
+  .footer__memberinfor h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* CSS cho các dòng thông tin */
+  .footer__memberinfor p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  

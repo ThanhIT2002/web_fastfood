@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lalezar&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lalezar&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+    /* CSS cho Container */
+
+    /* CSS cho Container */
+    .container_main_menu {
+      display: flex;
+      margin-top: 20px;
+    }
+    
+    /* Category menu styles */
+    .category_menu {
+      width: 20%;
+    }
+    .category_menu ul {
+      list-style-type: none;
+    }
+    
+    .category_list {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 16px;
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      transition: background-color 0.3s;
+    }
+    
+    .category_list:hover {
+      background-color: #eee;
+    }
+    
+.product_main {
+  width: 80%;
+  padding: 20px;
+  
+}
+.product_cart_menu{
+      width: 30%; /* Độ rộng của mỗi mục sản phẩm (hiển thị ba sản phẩm trên một hàng) */
+      margin: 1%; /* Khoảng cách giữa các sản phẩm */
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      transition: box-shadow 0.3s ease;
+}
+.product_cart_menu img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.product_cart_name{
+  margin-top: 10px;
+  height: 50px;
+}
+.product_cart_price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px; 
+}
+.product_cart_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Canh chỉnh theo chiều ngang */
+  text-align: center; /* Canh chỉnh theo chiều dọc */
+}
+.product_cart_details h3{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #c00000; /* Màu văn bản của tiêu đề */
+}
+.product_cart_details h4 {
+  font-size: 20px;
+    margin: 5px 0;
+    color: #c00000; /* Màu văn bản của giá */
+}
+.product_cart_menu:hover .product_cart_price {
+  color: #ff0000;
+}
+.product_cart_main button {
+  background-color: #c00000;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển động */
+  display: block;
+  margin: 0 auto;
+}
+.product_cart_main button:hover {
+  background-color: #690102;/* Màu nền khi di chuột qua */
+}
+.product_cart_menu{
+  cursor: pointer;
+}
+
+.category_list:hover{
+  cursor: pointer;
+  color: #ff0000;
+}
+.product_details_main {
+  width: 100%;
+}
+.product_cart_main a {
+  text-decoration: none;
+  color: #333;
+}
+.product_cart_main a:hover{
+  cursor: pointer;
+  color: #ff0000;
+}
+
+.product_cart_menu {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  transition: border-color 0.3s ease-in-out; /* Hiệu ứng chuyển động mềm mại */
+}
+
+.product_cart_menu:hover {
+  border-color: #c00000; /* Màu viền đỏ khi di chuột vào */
+  box-shadow: 0 0 10px;
+}
+.pic_cart_details{
+  height: 290px;
+}
+.category_list.active {
+  background-color: #f2f2f2;
+  color: #c00000; 
+}

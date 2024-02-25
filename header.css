@@ -1,0 +1,159 @@
+/* CSS cho cả trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* CSS cho phần header */
+  .header {
+    top :0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+  }
+  
+  /* CSS cho phần chức năng */
+  .header__funtcion-full{
+    width: 100%;
+  }
+  .header__funtcion {
+
+    width: 100%; /* Để đảm bảo rằng phần tử header__funtcion chiếm toàn bộ chiều rộng của header */
+    display: flex;
+    text-align: center;
+    background-color: #ffffff;
+    justify-content: center;
+  }
+  .header__funtcion-items img{
+    width: 50px;
+    margin-bottom: 2px;
+  }
+  .header__funtcion a {
+    text-decoration: none;
+    color: #333;
+   font-family: 'Roboto',sans-serif!important;;
+   font-size: 24px;
+  }
+  
+  .header__funtcion-list {
+    list-style: none;
+    display: flex; 
+  }
+  
+  .header__funtcion-items {
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+  }
+  .header__funtcion-items a:hover {
+    color: #c00000; /* Thay đổi màu khi di chuột qua */
+    transition: color 0.3s; /* Thêm hiệu ứng chuyển màu mượt mà */
+  }
+  
+  /* CSS cho phần dịch vụ */
+  .header__service {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #c00000;
+  }
+  
+  /* CSS cho logo */
+  
+  .header__service-logo img {
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  /* CSS cho thanh search */
+
+  .header__service-search {
+    display: flex;
+    align-items: center;
+}
+
+.header__service-search form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__service-search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 14px; 
+    width: 500px;
+   
+}
+.header__service-search img{
+  width: 20px;
+}
+.header__service-search button {
+    background-color: #c00000; /* Màu nền của nút tìm kiếm */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS cho phần user và buy */
+  .header__service-user_buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .header__service-buy {
+    margin-right: 20px;
+    
+  }
+  .header__service-user {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+  .header__service-user_buy img {
+    width: 40px;
+    margin: 0;
+  }
+  .user-info {
+    color: #ffffff; 
+    font-size: 14px;
+    
+}
+    .logout-button {
+        text-align: center;
+        color: #ffffff; 
+    }
+
+
+
+
